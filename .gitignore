@@ -16,11 +16,13 @@
 
 # Debugger Files
 *.pdb
+*.idb
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
+*.lib
 
 # Fortran module files
 *.mod
@@ -39,3 +41,42 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.db
+*.tlog
+*.log
+*.idb
+*.pdb
+*.ilk
+*.res
+*.tmp
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+build/
+Binaries/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# User files
+config.ini
+settings.json
