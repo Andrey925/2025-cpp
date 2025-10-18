@@ -2,8 +2,9 @@
 
 int main(int argc, char** argv)
 {
-    long long a, b;
-    scanf_s("%lld %lld", &a, &b);
-    printf("%lld", a < b ? a : b);
+    int m = 0;
+    int n = 0;
+    scanf_s("%d %d", &m, &n);
+    printf("%d"), (1 + (n - 1) * (m - 10));
     return 0;
 }
